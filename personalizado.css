@@ -9,7 +9,7 @@ inteiro, tanto em altura como em largura. Quando a imagem e o container têm dif
 dimensões,a imagem ultrapassa os limites do container em qualquer direção, para continuar 
 mantendo a proporção. Fonte: https://developer.mozilla.org/pt-BR/docs/Web/CSS/background-size */
 .descr-top{
-    background-image: url('../imagem/topo.jpg');
+    background-image: url('topo.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -43,7 +43,7 @@ mantendo a proporção. Fonte: https://developer.mozilla.org/pt-BR/docs/Web/CSS/
     float: none !important;
 }
 .descr-action{
-    background-image: url("../imagem/chamada_acao.jpg");
+    background-image: url("chamada_acao.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
